@@ -3,25 +3,27 @@
 
 <!DOCTYPE html>
 <html>
-	<head>
-    <meta charset="UTF-8">
-	</head>
-	<body>
-        <p>
-          <?php
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
+  
+ <p>
+ 
+ <?php
 
-          echo "<br />";
-          $Titre ="<H1>Un fichier JSON dans PHP</H1><br />";
-          echo $Titre;
+ echo "<br />";
+ $Titre ="<H1>Un fichier JSON dans PHP</H1><br />";
+ echo $Titre;
 
 // json affich
 
-          $json = '{"foo-bar": 12345}';
+$json = '{"foo-bar": 12345}';
 
-          $obj = json_decode($json);
-          print $obj->{'foo-bar'}; // 12345
+$obj = json_decode($json);
+print $obj->{'foo-bar'}; // 12345
 
-          ?>
+?>
 
 <br />
 <br />
@@ -54,12 +56,13 @@ $nom_compagnie = $parsed_json->{'cotation_bourse'}[0]->{'total'}->{'compagnie'};
 $cotation_total = $parsed_json->{'cotation_bourse'}[0]->{'total'}->{'cotation'};
 $tendance_total = $parsed_json->{'cotation_bourse'}[0]->{'total'}->{'tendance'};
 
+// afficher une phrase
+
 echo " INFO : Le ${date_jour} à ${heure_cac40} h ${minute_cac40}, la cotation de ${nom_compagnie}
- est de ${cotation_total} et sa tendance de ${tendance_total} % ";
+est de ${cotation_total} et sa tendance de ${tendance_total} % ";
 
 ?>
 
-
-  </p>
-	</body>
+</p>
+</body>
 </html>
