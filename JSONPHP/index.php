@@ -8,7 +8,6 @@
 </head>
 <body>
   
- <p>
  
  <?php
 
@@ -63,6 +62,5 @@ est de ${cotation_total} et sa tendance de ${tendance_total} % ";
 
 ?>
 
-</p>
 </body>
 </html>
