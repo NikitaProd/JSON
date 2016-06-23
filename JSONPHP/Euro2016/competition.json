@@ -1,0 +1,29 @@
+{
+  "name":"Euro 2016",
+  "groups":[
+    {
+      "id":"A",
+      "teams":["France","Roumanie", "Albanie", "Suisse"]
+    },
+    {
+      "id":"B",
+      "teams":["Angleterre","Russie", "Pays de Galles", "Slovaquie"]
+    },
+    {
+      "id":"C",
+      "teams":["Allemagne","Ukraine", "Pologne", "Irlande du Nord"]
+    },
+    {
+      "id":"D",
+      "teams":["Espagne","Rép.Tchéque", "Turquie", "Croatie"]
+    },
+    {
+      "id":"E",
+      "teams":["Belgique","Italie", "Rép. d'Irlande", "Suède"]
+    },
+    {
+      "id":"F",
+      "teams":["Portugal","Islande", "Autriche", "Hongrie"]
+    }
+  ]
+}
