@@ -39,13 +39,14 @@ for ($i2=0; $i2 < count($content->groups[$i]->teams) ; $i2++)
 $teams = $content->groups[$i]->teams[$i2];
 ?>
 
-<!-- NOM 1-->
+<!-- NOM -->
 <?php
 for ($i3=0; $i3 < count($content->groups[$i]->teams[$i2]->nom) ; $i3++)
 {
 $nom = $content->groups[$i]->teams[$i2]->nom;
 ?>
 
+<!-- FLAG -->
 <?php
 for ($i4=0; $i4 < count($content->groups[$i]->teams[$i2]->flag) ; $i4++)
 {
@@ -54,7 +55,7 @@ $flag = $content->groups[$i]->teams[$i2]->flag;
 
 
 <div class="nom"><a href = ""><?php echo $nom ?></a> -
-  <a href = ""><img src="<?php echo $flag ?>" border="1" />
+  <a href = ""><img src="<?php echo $flag ?>" border="1" /></a>
 </div><br />
 
 <?php
@@ -110,8 +111,9 @@ a:hover{
 img {
     height: 25px;
     width: 25px;
-    margin: 0,4%;
+    /*margin: 0,4%;*/
     border-radius: 50%;
+    vertical-align: middle;
 }
 
 .nom{
