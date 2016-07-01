@@ -9,6 +9,7 @@
 </head>
 <body>
 
+
 <?php
 
 // ------------------------  json
@@ -54,6 +55,7 @@ $flag = $content->groups[$i]->teams[$i2]->flag;
 ?>
 
 
+<!-- AFFICH  -->
 <div class="nom"><a href = ""><?php echo $nom ?></a> -
   <a href = ""><img src="<?php echo $flag ?>" border="1" /></a>
 </div><br />
