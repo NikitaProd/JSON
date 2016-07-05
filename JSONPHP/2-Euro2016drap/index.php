@@ -12,7 +12,9 @@
 
 <?php
 
+
 // ------------------------  json
+
 
 $euro = file_get_contents("competition.json");
 $content = json_decode($euro);
@@ -78,6 +80,7 @@ $flag = $content->groups[$i]->teams[$i2]->flag;
 <br /><br />
 <hr>
 <br /><br />
+
 
 <!-- STYLE ---------------------------------------->
 
