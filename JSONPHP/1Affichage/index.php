@@ -2,7 +2,6 @@
 
 <!-- Un fichier JSON dans PHP  TEST-->
 
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -57,6 +56,7 @@ $minute_cac40 = $parsed_json->{'cotation_bourse'}[0]->{'bourse'}->{'minute'};
 $nom_compagnie = $parsed_json->{'cotation_bourse'}[0]->{'total'}->{'compagnie'};
 $cotation_total = $parsed_json->{'cotation_bourse'}[0]->{'total'}->{'cotation'};
 $tendance_total = $parsed_json->{'cotation_bourse'}[0]->{'total'}->{'tendance'};
+
 
 // afficher une phrase
 
