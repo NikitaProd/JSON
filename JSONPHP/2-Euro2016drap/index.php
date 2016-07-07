@@ -1,5 +1,6 @@
 
 
+
 <!-- Exercice PHP Euro2016  PHP JSON -->
 
 <!DOCTYPE html>
@@ -55,6 +56,7 @@ for ($i4=0; $i4 < count($content->groups[$i]->teams[$i2]->flag) ; $i4++)
 {
 $flag = $content->groups[$i]->teams[$i2]->flag;
 ?>
+
 
 
 <!-- AFFICH  -->
@@ -122,7 +124,7 @@ img {
 }
 
 .nom{
-  font-size: 20px;
+  font-size: 15px;
 }
 
 </style>
