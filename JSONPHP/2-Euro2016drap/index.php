@@ -43,6 +43,7 @@ for ($i2=0; $i2 < count($content->groups[$i]->teams) ; $i2++)
 $teams = $content->groups[$i]->teams[$i2];
 ?>
 
+
 <!-- NOM -->
 <?php
 for ($i3=0; $i3 < count($content->groups[$i]->teams[$i2]->nom) ; $i3++)
@@ -75,8 +76,6 @@ $flag = $content->groups[$i]->teams[$i2]->flag;
 <br />
 <br />
 <br />
-
-<!-- #6 Les arrays  Profils-->
 
 
 <br /><br />
