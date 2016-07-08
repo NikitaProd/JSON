@@ -1,5 +1,6 @@
 
 
+
 <!-- Exercice PHP Euro2016  PHP JSON -->
 
 <!DOCTYPE html>
@@ -8,6 +9,7 @@
 <meta charset="UTF-8">
 </head>
 <body>
+
 
 <?php
 
@@ -45,10 +47,9 @@ $teams = $content->groups[$i]->teams[$i2];
 <br /><br />
 
 <br />
-
-
 <hr>
 <br /><br />
+
 
 <!-- STYLE ---------------------------------------->
 
