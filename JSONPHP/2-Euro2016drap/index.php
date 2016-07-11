@@ -13,7 +13,6 @@
 
 <?php
 
-
 // ------------------------  json
 
 
@@ -26,8 +25,8 @@ $content = json_decode($euro);
 <h1><?php echo "POE ".$content->name; ?></h1>
 <hr>
 
-<!-- GROUPS -->
 
+<!-- GROUPS -->
 <?php
 for ($i=0; $i < count($content->groups); $i++)
 {
@@ -57,7 +56,6 @@ for ($i4=0; $i4 < count($content->groups[$i]->teams[$i2]->flag) ; $i4++)
 {
 $flag = $content->groups[$i]->teams[$i2]->flag;
 ?>
-
 
 
 <!-- AFFICH  -->
